@@ -38,7 +38,11 @@ import {
   Edit,
   Trash2,
   Ban,
-  FileMinus
+  FileMinus,
+  MessageCircle,
+  ChevronRight,
+  ChevronDown,
+  X
 } from 'lucide-react';
 
 export {
@@ -81,5 +85,9 @@ export {
   Edit,
   Trash2,
   Ban,
-  FileMinus
+  FileMinus,
+  MessageCircle,
+  ChevronRight,
+  ChevronDown,
+  X
 };

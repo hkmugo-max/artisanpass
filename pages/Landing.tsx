@@ -60,6 +60,12 @@ export const Landing: React.FC = () => {
                   Pricing
                 </button>
                 <button 
+                  onClick={() => navigate('/help')} 
+                  className="hidden md:block text-sm font-medium text-stone-500 hover:text-earth transition-colors"
+                >
+                  Help Center
+                </button>
+                <button 
                   onClick={() => navigate('/staff-access')} 
                   className="hidden md:block text-stone-400 hover:text-earth transition-colors"
                   title="Staff Access"
@@ -360,6 +366,7 @@ export const Landing: React.FC = () => {
             <button onClick={() => navigate('/privacy')} className="hover:text-stone-300 transition-colors">Privacy Policy</button>
             <button onClick={() => navigate('/terms')} className="hover:text-stone-300 transition-colors">Terms of Service</button>
             <button onClick={() => navigate('/whitepaper')} className="hover:text-stone-300 transition-colors">Compliance Whitepaper</button>
+            <button onClick={() => navigate('/help')} className="hover:text-stone-300 transition-colors">Help Center</button>
         </div>
       </footer>
     </div>

@@ -13,6 +13,7 @@ import { SuperAdminDashboard } from './pages/SuperAdminDashboard';
 import { CaptureMenu } from './pages/CaptureMenu'; 
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { TermsOfService } from './pages/TermsOfService';
+import { HelpCenter } from './pages/HelpCenter';
 import { ProtectedRoute } from './components/ProtectedRoute'; 
 import { ProtectedAdminRoute } from './components/ProtectedAdminRoute';
 import { OfflineIndicator } from './components/OfflineIndicator';
@@ -125,6 +126,7 @@ function App() {
           <Route path="/guide" element={<UserGuide />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/help" element={<HelpCenter />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/staff-access" element={<StaffLogin />} />
           
