@@ -1,0 +1,9 @@
+{
+  "name": "ArtisanPass",
+  "description": "A traceability engine for the artisanal niche, enabling offline-first tracking and EU DPP compliance.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
